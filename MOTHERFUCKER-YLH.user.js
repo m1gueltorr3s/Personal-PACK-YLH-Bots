@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Script Unificado para YouLikeHits y StayFocusd
-// @namespace    http://tampermonkey.net/
-// @version      1.1
+// @name         MOTHERFUCKER BOT YLH
+// @namespace    https://github.com/m1gueltorr3s/Personal-PACK-YLH-Bots/
+// @version      1.2
 // @description  Monitorea y maneja ventanas en YouLikeHits y cierra ventanas emergentes de StayFocusd
 // @match        https://www.youlikehits.com/viewwebsite.php*
 // @match        https://www.youlikehits.com/youtubenew2.php
@@ -67,12 +67,13 @@
     // Sección 3: Cerrar ventanas emergentes de StayFocusd
     // ================================
     function closeStayFocusdWindows() {
-        const popups = document.querySelectorAll('div.popup'); // Ajustar según el selector correcto
-        popups.forEach(popup => {
-            if (popup.textContent.includes("YouTube")) { // Ajustar según el contenido específico
-                popup.style.display = 'none'; // Oculta la ventana emergente
-            }
-        });
+        const currentUrl = window.location.href;
+
+        // Verifica si la URL coincide con la de StayFocusd
+        if (currentUrl.includes("https://www.stayfocusd.com/blocked")) {
+            // Intenta cerrar la ventana actual
+            window.close();
+        }
     }
 
     // Usar un observador de mutaciones para detectar nuevas ventanas emergentes en StayFocusd
