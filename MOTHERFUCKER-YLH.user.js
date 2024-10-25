@@ -3,6 +3,9 @@
 // @namespace    https://github.com/m1gueltorr3s/Personal-PACK-YLH-Bots/
 // @version      1.2
 // @description  Monitorea y maneja ventanas en YouLikeHits y cierra ventanas emergentes de StayFocusd
+// @author       m1gueltorr3s
+// @updateURL    https://github.com/m1gueltorr3s/Personal-PACK-YLH-Bots/raw/refs/heads/PRINCIPAL/MOTHERFUCKER-YLH.user.js
+// @downloadUR   https://github.com/m1gueltorr3s/Personal-PACK-YLH-Bots/raw/refs/heads/PRINCIPAL/MOTHERFUCKER-YLH.user.js
 // @match        https://www.youlikehits.com/viewwebsite.php*
 // @match        https://www.youlikehits.com/youtubenew2.php
 // @match        https://www.youlikehits.com/websites.php
