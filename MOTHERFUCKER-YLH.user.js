@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MOTHERFUCKER BOT YLH
 // @namespace    https://github.com/m1gueltorr3s/Personal-PACK-YLH-Bots/
-// @version      1.2
+// @version      1.4
 // @description  Monitorea y maneja ventanas en YouLikeHits y cierra ventanas emergentes de StayFocusd
 // @author       m1gueltorr3s
 // @updateURL    https://github.com/m1gueltorr3s/Personal-PACK-YLH-Bots/raw/refs/heads/PRINCIPAL/MOTHERFUCKER-YLH.user.js
