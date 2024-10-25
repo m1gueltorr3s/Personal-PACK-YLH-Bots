@@ -4,8 +4,8 @@
 // @version      0.0.1
 // @description  Automatiza interacciones en YouLikeHits de manera eficiente.
 // @author       m1gueltorr3s
-// @updateURL    
-// @downloadUR
+// @updateURL    https://github.com/m1gueltorr3s/Personal-PACK-YLH-Bots/raw/refs/heads/PRINCIPAL/YLH-BOT-SPANISH.user.js
+// @downloadUR   https://github.com/m1gueltorr3s/Personal-PACK-YLH-Bots/raw/refs/heads/PRINCIPAL/YLH-BOT-SPANISH.user.js
 // @match        *://*.youlikehits.com/login.php
 // @match        *://*.youlikehits.com/soundcloudplays.php*
 // @match        *://*.youlikehits.com/websites.php*
